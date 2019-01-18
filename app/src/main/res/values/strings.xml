@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NotificationList</string>
+    <string name="send_notification">Send notification</string>
+    <string name="notification_sent_toast">Oops! Notification has already been sent!</string>
+    <string name="reset_shared_preferences">Reset shared preferences</string>
+    <string name="shared_preferences_cleared">Shared preferences cleared!</string>
+</resources>

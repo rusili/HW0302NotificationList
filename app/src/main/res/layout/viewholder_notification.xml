@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/viewholderLayout"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/viewholder_notification_height"
+    android:foreground="?attr/selectableItemBackground">
+
+    <ImageView
+        android:id="@+id/notificationImage"
+        android:layout_width="@dimen/viewholder_notification_image_size"
+        android:layout_height="@dimen/viewholder_notification_image_size"
+        android:layout_marginLeft="@dimen/viewholder_notification_image_margin_horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/notificationMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/viewholder_notification_image_margin_horizontal"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/viewholder_notification_text_size"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/notificationImage"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="This is some message" />
+
+</android.support.constraint.ConstraintLayout>

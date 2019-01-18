@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="viewholder_notification_height">72dp</dimen>
+    <dimen name="viewholder_notification_width">256dp</dimen>
+    <dimen name="viewholder_notification_image_size">56dp</dimen>
+    <dimen name="viewholder_notification_image_margin_horizontal">14dp</dimen>
+    <dimen name="viewholder_notification_text_size">16sp</dimen>
+
+    <dimen name="activitysecond_notification_button_margin_bottom">64dp</dimen>
+</resources>
