@@ -12,7 +12,7 @@ import android.widget.Toast;
 
 import com.rusili.notificationlist.model.MyNotification;
 import com.rusili.notificationlist.recyclerview.NotificationAdapter;
-import com.rusili.notificationlist.util.MyNotificationListProvider;
+import com.rusili.notificationlist.util.MyNotificationsProvider;
 
 import java.util.List;
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        setupRecyclerView(new MyNotificationListProvider().getList());
+        setupRecyclerView(new MyNotificationsProvider().getList());
         setupOnClickListener();
     }
 
